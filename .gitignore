@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# TypeScript output
+dist/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# npm-debug log files
+npm-debug.log*
+
+# Yarn integrity file
+.yarn-integrity
+
+# macOS files
+.DS_Store
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage directory used by tools like istanbul
+coverage/
