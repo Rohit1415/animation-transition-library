@@ -1,10 +1,11 @@
 // src/animationControls.ts
-import { useAnimation } from 'framer-motion';
+import { useAnimation, AnimationDefinition } from 'framer-motion';
 
 export const useAnimationControl = () => {
   const controls = useAnimation();
 
-  const startAnimation = async (animation: object) => {
+  // Change the type from `object` to `AnimationDefinition` or appropriate type
+  const startAnimation = async (animation: AnimationDefinition) => {
     await controls.start(animation);
   };
 
