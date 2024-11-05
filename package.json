@@ -1,19 +1,33 @@
 {
   "name": "animation-transition-library",
   "version": "1.0.0",
-  "main": "index.js",
-"scripts": {
-  "build": "tsc"
-},
-  "keywords": [],
-  "author": "",
+  "description": "A library for animations and transitions using TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "animation",
+    "transition",
+    "typescript",
+    "library"
+  ],
+  "author": "Rohit Bhatu",
   "license": "ISC",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rohit1415/animation-transition-library"  
+  },
   "devDependencies": {
     "@types/node": "^22.9.0",
     "typescript": "^5.6.3"
   },
   "dependencies": {
     "framer-motion": "^11.11.11"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
